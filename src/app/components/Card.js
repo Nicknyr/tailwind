@@ -7,7 +7,7 @@ const Card = () => {
         <div className="
             h-auto 
             w-110 border 
-            border-gray-300
+            border-gray-200
             rounded-3xl 
             p-8
             shadow-xl
@@ -29,19 +29,19 @@ const Card = () => {
             <p>The perfect plan if you're just getting started with our product.</p>
             <ul className="mt-7 mb-7">
                 <li className="pb-2 flex">
-                    <Image src={Checkmark} height="15" width="15"/> 
+                    <Image src={Checkmark} height="15" width="15" alt="checkmark"/> 
                     <p className="pl-3">25 products</p>
                 </li>
                 <li className="pb-2 flex">
-                    <Image src={Checkmark} height="15" width="15"/> 
+                    <Image src={Checkmark} height="15" width="15" alt="checkmark"/> 
                     <p className="pl-3">Up to 10,000 subscribers</p>
                 </li>
                 <li className="pb-2 flex">
-                    <Image src={Checkmark} height="15" width="15"/> 
+                    <Image src={Checkmark} height="15" width="15" alt="checkmark"/> 
                     <p className="pl-3">Advanced analytics</p>
                 </li>
                 <li className="pb-2 flex">
-                    <Image src={Checkmark} height="15" width="15"/> 
+                    <Image src={Checkmark} height="15" width="15" alt="checkmark"/> 
                     <p className="pl-3">4-hour support response time</p>2
                 </li>
             </ul>
